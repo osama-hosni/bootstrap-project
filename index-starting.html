@@ -77,35 +77,59 @@
   <!-- Features -->
 
   <section id="features">
-    <h2>Weight Loss Made Easy</h2>
-
-    <h3>Set Your Goals</h3>
-    <p>Tell us what you want to acheive and receive personalized goals.</p>
 
 
-    <h3>Track Your Food</h3>
-    <p>Learn about the foods you’re eating and keep your calories within your daily budget.</p>
-
-
-    <h3>Lose Weight</h3>
-    <p>Reach your goals and continue to set new ones for a happier, healthier you!</p>
-
+    <div class="container-fluid row">
+      <h2>Weight Loss Made Easy</h2>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Set Your Goals</h3>
+        <p>Tell us what you want to acheive and receive personalized goals.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3>Track Your Food</h3>
+        <p>Learn about the foods you’re eating and keep your calories within your daily budget.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-heart fa-4x"></i>
+        <h3>Lose Weight</h3>
+        <p>Reach your goals and continue to set new ones for a happier, healthier you!</p>
+      </div>
+    </div>
   </section>
 
 
   <!-- Testimonials -->
 
   <section id="testimonials">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Track every single bite you take. You need to know how you’re doing before
+            dinner. If you don’t, things can get away from you fast.</h2>
+          <img class="testimonials-img" src="https://assets.loseit.com/website/home/Advice_Carla.png" alt="Carla">
+          <em>- Carla, 65 lbs lost without giving up pizza.</em>
 
-    <h2>Track every single bite you take. You need to know how you’re doing before
-      dinner. If you don’t, things can get away from you fast.</h2>
-    <img src="https://assets.loseit.com/website/home/Advice_Carla.png" alt="Carla">
-    <em>- Carla, 65 lbs lost without giving up pizza.</em>
+        </div>
+        <div class="carousel-item">
+          <h2>Everyday is a battle, and you have to make the choice each morning to fight for
+            your health and wellness.</h2>
+          <img class="testimonials-img" src="https://assets.loseit.com/website/home/Advice_Alex.png" alt="alex">
+          <em>- Alex, lost 85 lbs for his wedding.</em>
 
-    <h2>Everyday is a battle, and you have to make the choice each morning to fight for
-      your health and wellness.</h2>
-    <img src="https://assets.loseit.com/website/home/Advice_Alex.png" alt="alex">
-    <em>- Alex, lost 85 lbs for his wedding.</em>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
   </section>
 
@@ -113,10 +137,11 @@
 
   <section id="press">
     <h3>AS SEEN ON</h3>
-    <img src="https://assets.loseit.com/website/home/Feature_TodayShow.png" alt="today show">
-    <img src="https://assets.loseit.com/website/home/Feature_People.png" alt="People magazine">
-    <img src="https://assets.loseit.com/website/home/Feature_GoodMorningAmerica.png" alt="good morning america">
-    <img src="https://assets.loseit.com/website/home/Feature_WomensHealth.png" alt="women's health">
+    <img class="press-logo" src="https://assets.loseit.com/website/home/Feature_TodayShow.png" alt="today show">
+    <img class="press-logo" src="https://assets.loseit.com/website/home/Feature_People.png" alt="People magazine">
+    <img class="press-logo" src="https://assets.loseit.com/website/home/Feature_GoodMorningAmerica.png"
+      alt="good morning america">
+    <img class="press-logo" src="https://assets.loseit.com/website/home/Feature_WomensHealth.png" alt="women's health">
 
   </section>
 
@@ -124,33 +149,63 @@
   <!-- Pricing -->
 
   <section id="pricing">
-
-    <h2>A Plan for Every One's Needs</h2>
-    <p>Simple and affordable price plans for your needs.</p>
-
-
-    <h3>Limited</h3>
-    <h2>Free</h2>
-    <p>5 Pictures Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-    <h3>Starter</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Pictures</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-    <h3>Master</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Pictures</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+    <div class="">
+      <h2>A Plan for Every One's Needs</h2>
+      <p>Simple and affordable price plans for your needs.</p>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="pricing-col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h3 class="my-0 fw-normal">Limited</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">Free</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 Pictures Per Day</li>
+                <li>10 Messages Per Day</li>
+                <li>Unlimited App Usage</li>
+                <br>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h3 class="my-0 fw-normal">Starter</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$49<small class="text-muted fw-light">/mo</small></h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Unlimited Pictures</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+                <br>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h3 class="my-0 fw-normal">Master</h4>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title pricing-card-title">$99<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Pirority Listing</li>
+                  <li>Unlimited Pictures</li>
+                  <li>Unlimited Messages</li>
+                  <li>Unlimited App Usage</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 
